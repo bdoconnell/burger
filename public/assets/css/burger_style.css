@@ -12,20 +12,20 @@ html {
 	background-color: white;
  }
 
- #cute_burger {
+ #nice_buns {
  	display: block;
     margin: auto;
  }
 
  h1 {
  	text-align: center;
- 	font-family: 'Fontdiner Swanky', cursive;
+ 	font-family: 'Fontdiner Swanky';
  	font-size: 65px;
  	margin: 50px;
  }
 
  .burgerAvailable {
- 	font-family: 'Crafty Girls', cursive;
+	font-family: 'Fontdiner Swanky';
  	font-weight: normal;
  	font-size: 20px;
  	text-align: center;
@@ -43,7 +43,7 @@ html {
  }
 
  .burgerEaten {
- 	font-family: 'Crafty Girls', cursive;
+	font-family: 'Fontdiner Swanky';
  	font-weight: normal;
  	font-size: 20px;
  	text-align: center;
@@ -51,12 +51,16 @@ html {
  	border-radius: 25px;
  	margin: 10px;
  	padding: 10px;
- 	background-color: #ffd1c9;
+ 	background-color: #ffe6c9;
  }
+
+ .burgerEaten:hover {
+	background-color: #ffc9c9;
+}
 
  h2 {
   	text-align: center;
- 	font-family: 'Fontdiner Swanky', cursive;
+ 	font-family: 'Fontdiner Swanky';
  	font-size: 40px;
  	margin: 50px;
  }
@@ -66,7 +70,7 @@ html {
  }
 
  .addBurgerButton {
- 	font-family: 'Crafty Girls', cursive;
+	font-family: 'Fontdiner Swanky';
  	font-weight: normal;
  	font-size: 20px;
  	text-align: center;
@@ -78,6 +82,10 @@ html {
  	background-color: #FFC04C;
  	border: none;
  }
+
+ .addBurgerButton:hover {
+	background-color: #ffab4c;
+}
 
 .addBurgerButton:active {
 	background-color: #FFC04C;
